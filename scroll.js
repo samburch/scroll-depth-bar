@@ -1,4 +1,3 @@
-<script>
 //Get AI header + article hero or image banner depending on which one is in use on template
 var getHeader = document.getElementsByTagName('header')[0].offsetHeight;
 var getHero = document.getElementsByClassName("image-banner")[0] || document.getElementsByClassName("article-hero")[0];
@@ -61,4 +60,3 @@ function progressBar() {
     }
 
 }
-</script>
